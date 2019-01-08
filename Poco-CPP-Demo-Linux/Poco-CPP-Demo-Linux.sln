@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Poco-CPP-Demo-Linux", "Poco-CPP-Demo-Linux\Poco-CPP-Demo-Linux.vcproj", "{B5D9B086-41E7-4F7E-B2E6-6D19C0EC1CCA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Thread", "Thread\Thread.vcproj", "{A0A1B29F-6F9B-4DB4-8E36-D80C62F125E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5D9B086-41E7-4F7E-B2E6-6D19C0EC1CCA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B5D9B086-41E7-4F7E-B2E6-6D19C0EC1CCA}.Debug|Win32.Build.0 = Debug|Win32
+		{B5D9B086-41E7-4F7E-B2E6-6D19C0EC1CCA}.Release|Win32.ActiveCfg = Release|Win32
+		{B5D9B086-41E7-4F7E-B2E6-6D19C0EC1CCA}.Release|Win32.Build.0 = Release|Win32
+		{A0A1B29F-6F9B-4DB4-8E36-D80C62F125E0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A0A1B29F-6F9B-4DB4-8E36-D80C62F125E0}.Debug|Win32.Build.0 = Debug|Win32
+		{A0A1B29F-6F9B-4DB4-8E36-D80C62F125E0}.Release|Win32.ActiveCfg = Release|Win32
+		{A0A1B29F-6F9B-4DB4-8E36-D80C62F125E0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

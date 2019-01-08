@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="Thread"
+	ProjectGUID="{A0A1B29F-6F9B-4DB4-8E36-D80C62F125E0}"
+	TargetFrameworkVersion="196613"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="&quot;$(VISUALGDB_DIR)\VisualGDB.exe&quot; /build &quot;$(ProjectPath)&quot; &quot;/solution:$(SolutionPath)&quot;  &quot;/config:$(ConfigurationName)&quot; &quot;/platform:$(PlatformName)&quot;"
+				ReBuildCommandLine="&quot;$(VISUALGDB_DIR)\VisualGDB.exe&quot; /rebuild &quot;$(ProjectPath)&quot; &quot;/solution:$(SolutionPath)&quot;  &quot;/config:$(ConfigurationName)&quot; &quot;/platform:$(PlatformName)&quot;"
+				CleanCommandLine="&quot;$(VISUALGDB_DIR)\VisualGDB.exe&quot; /clean &quot;$(ProjectPath)&quot; &quot;/solution:$(SolutionPath)&quot;  &quot;/config:$(ConfigurationName)&quot; &quot;/platform:$(PlatformName)&quot;"
+				Output="$(ProjectDir)Thread-Debug.vgdbsettings"
+				PreprocessorDefinitions="__VisualGDB_CFG_Debug"
+				IncludeSearchPath="$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.124.131\0003\include;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.124.131\0000\include\c++\4.8.5;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.124.131\0000\include\c++\4.8.5\x86_64-redhat-linux;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.124.131\0000\include\c++\4.8.5\backward;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.124.131\0001\include;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.124.131\0002\include;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.124.131\0000\include"
+				ForcedIncludes="$(ProjectDir)\gcc_Debug.h;$(VISUALGDB_DIR)\gcc_compat.h"
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="&quot;$(VISUALGDB_DIR)\VisualGDB.exe&quot; /build &quot;$(ProjectPath)&quot; &quot;/solution:$(SolutionPath)&quot;  &quot;/config:$(ConfigurationName)&quot; &quot;/platform:$(PlatformName)&quot;"
+				ReBuildCommandLine="&quot;$(VISUALGDB_DIR)\VisualGDB.exe&quot; /rebuild &quot;$(ProjectPath)&quot; &quot;/solution:$(SolutionPath)&quot;  &quot;/config:$(ConfigurationName)&quot; &quot;/platform:$(PlatformName)&quot;"
+				CleanCommandLine="&quot;$(VISUALGDB_DIR)\VisualGDB.exe&quot; /clean &quot;$(ProjectPath)&quot; &quot;/solution:$(SolutionPath)&quot;  &quot;/config:$(ConfigurationName)&quot; &quot;/platform:$(PlatformName)&quot;"
+				Output="$(ProjectDir)Thread-Release.vgdbsettings"
+				PreprocessorDefinitions="__VisualGDB_CFG_Release"
+				IncludeSearchPath="$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.124.131\0000\include\c++\4.8.5;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.124.131\0000\include\c++\4.8.5\x86_64-redhat-linux;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.124.131\0000\include\c++\4.8.5\backward;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.124.131\0001\include;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.124.131\0002\include;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.124.131\0000\include"
+				ForcedIncludes="$(ProjectDir)\gcc_Release.h;$(VISUALGDB_DIR)\gcc_compat.h"
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source files"
+			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			>
+			<File
+				RelativePath=".\Thread.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			>
+		</Filter>
+		<Filter
+			Name="Resource files"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
+			>
+		</Filter>
+		<Filter
+			Name="Make files"
+			Filter="mak"
+			>
+			<File
+				RelativePath=".\debug.mak"
+				>
+			</File>
+			<File
+				RelativePath=".\release.mak"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="VisualGDB settings"
+			Filter="vgdbsettings"
+			>
+			<File
+				RelativePath=".\Thread-Debug.vgdbsettings"
+				>
+			</File>
+			<File
+				RelativePath=".\Thread-Release.vgdbsettings"
+				>
+			</File>
+		</Filter>
+		<File
+			RelativePath=".\Makefile"
+			>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
